@@ -249,7 +249,7 @@ p{
         position: static;
         width: auto;
         flex-direction: row;
-        gap: 5px;
+        gap: 1.5rem;
         opacity: 1;
         pointer-events: auto;
     }
@@ -580,14 +580,6 @@ p{
         top: 0;
         padding: 0.5rem;
         height: calc(var(--header-height)-0.5rem);
-    }
-
-    .services > .container {
-        grid-template-columns: repeat(3, 30%);
-    }
-
-    .services .section-title {
-        grid-column: span 3;
     }
 
     .portfolio > .container {
